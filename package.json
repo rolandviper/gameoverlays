@@ -1,0 +1,49 @@
+{
+	"name": "mlbb-hornbill-overlays",
+	"version": "0.0.0",
+	"description": "Hornbill esports cup MLBB overlays",
+	"homepage": "https://www.facebook.com/hornbillesports/",
+	"author": {
+		"name": "Roland",
+		"email": "rolandviper@gmail.com",
+		"url": ""
+	},
+	"files": [ "dashboard", "graphics", "extension.js", "extension" ],
+	"keywords": [ "", "nodecg-bundle" ],
+	"nodecg": {
+		"compatibleRange": "^1.1.1",
+		"dashboardPanels": [
+			{
+				"name": "mlbbdraft",
+				"title": "mlbbdraft",
+				"width": 2,
+				"file": "mlbbdraft.html",
+				"headerColor": "#525F78"
+			},
+			{
+				"name": "mlbbInGame",
+				"title": "mlbbInGame",
+				"width": 2,
+				"file": "mlbbingame.html",
+				"headerColor": "#525F78"
+			}
+		],
+		"graphics": [
+			{
+				"file": "mlbbdrafting.html",
+				"width": 1920,
+				"height": 1080
+			},
+			{
+				"file": "mlbbingaming.html",
+				"width": 1920,
+				"height": 1080
+			}
+		]
+	},
+	"repository": "https://github.com/nodecg/nodecg.git",
+	"license": "Apache-2.0",
+	"dependencies": {
+		"gsap": "^3.2.4"
+	}
+}

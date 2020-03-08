@@ -1,0 +1,110 @@
+body {
+	font-family: Staatliches, sans-serif !important;
+	background: transparent;
+	/* background-image: url('./img/basegameref/mlbbdraft.jpg');
+	background-size: cover; */
+}
+
+#base {
+	opacity: 0;
+}
+
+#nameplate {
+	margin-top: 13vh;
+	display: flex;
+	flex-direction: row;
+}
+
+.col {
+	flex: 1;
+}
+
+.text {
+	background: white;
+	padding: 0 8px 0 15px;
+	margin: 0;
+
+	overflow: hidden;
+	white-space: nowrap;
+
+	font-size: 3vh;
+	letter-spacing: 4px;
+}
+
+#left {
+	text-align: end;
+	margin-right: 4vw;
+}
+
+#right {
+	margin-left: 4vw;
+}
+
+#vs {
+	z-index: 2;
+	position: absolute;
+	top: 21%;
+	left: 50%;
+
+	transform: translate(-50%, -50%);
+
+	display: flex;
+	flex-direction: column;
+
+	align-items: center;
+}
+
+#middle {
+	font-size: 4vh;
+}
+
+#leftteam {
+	background-color: #ffba00;
+}
+
+#rightteam {
+	background-color: #ffba00;
+}
+
+#series {
+	font-size: 5vh;
+}
+
+#game {
+	font-size: 2vh;
+	background-color: #ffba00;
+}
+
+#round {
+	font-size: 2vh;
+}
+
+#logo {
+	position: absolute;
+	z-index: 6;
+	width: 10vw;
+
+	opacity: 0;
+
+	overflow: hidden;
+
+	bottom: 5%;
+	left: 40%;
+}
+
+#sponsor {
+	position: absolute;
+	z-index: 4;
+	margin: 0;
+
+	bottom: 1%;
+	left: 50%;
+
+	max-height: 30vh;
+	opacity: 0;
+}
+
+#loop {
+	background-color: rgba(255, 255, 255, 0.34);
+	background-size: contain;
+}

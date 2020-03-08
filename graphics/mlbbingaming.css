@@ -1,0 +1,142 @@
+body {
+	font-family: Staatliches, sans-serif !important;
+	background: transparent;
+	/* background-image: url('./img/basegameref/mlbbingame.jpg');
+	background-size: cover; */
+}
+
+#base {
+	opacity: 0;
+}
+
+#nameplate {
+	margin-top: 6.4vh;
+	display: flex;
+	flex-direction: row;
+}
+
+.col {
+	flex: 1;
+}
+
+.text {
+	background: white;
+	padding: 0 8px 0 15px;
+	margin: 0;
+
+	overflow: hidden;
+	white-space: nowrap;
+
+	font-size: 3vh;
+	letter-spacing: 4px;
+}
+
+#left {
+	text-align: end;
+	margin-right: 3vw;
+}
+
+#right {
+	margin-left: 3vw;
+}
+
+#versus {
+	z-index: 4;
+	position: absolute;
+
+	top: 8.6%;
+	left: 50%;
+
+	transform: translate(-50%, -50%);
+
+	align-items: center;
+}
+
+#middle {
+	background-color: #ffba00;
+
+	font-size: 3.2vh;
+
+	opacity: 1;
+}
+
+#vs {
+	z-index: 2;
+	position: absolute;
+	top: 0%;
+	left: 17.5%;
+
+	display: flex;
+	flex-direction: column;
+
+	align-items: flex-start;
+
+	opacity: 1;
+}
+
+#series {
+	font-size: 2.5vh;
+	padding-top: 0.7rem;
+	padding-bottom: 0.7rem;
+}
+
+#game {
+	font-size: 2vh;
+	background-color: #ffba00;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+
+#round {
+	font-size: 2vh;
+	flex-wrap: wrap;
+}
+
+#logo {
+	position: absolute;
+	z-index: 6;
+	width: 6vw;
+
+	opacity: 0;
+
+	overflow: hidden;
+
+	top: 2%;
+	right: 7%;
+
+	border-right: 1px solid #ffba00;
+}
+
+#sponsor {
+	position: absolute;
+	z-index: 4;
+	margin: 0;
+
+	top: 0%;
+	right: 2%;
+
+	height: 10vh;
+	max-height: 10vh;
+	opacity: 0;
+}
+
+#loop {
+	/* background-color: rgba(255, 255, 255, 0.34);
+	background-size: contain; */
+}
+
+#bg {
+	position: absolute;
+
+	z-index: 3;
+
+	width: 14vw;
+	height: 12vh;
+
+	right: 0%;
+	top: 0%;
+
+	background: rgb(255, 255, 255);
+
+	opacity: 1;
+}
