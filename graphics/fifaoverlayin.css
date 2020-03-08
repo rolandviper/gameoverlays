@@ -1,0 +1,146 @@
+body {
+	font-family: Staatliches, sans-serif !important;
+	background: transparent;
+	/* background-image: url('./img/basegameref/fifa20ingame.png'); */
+	/* background-size: cover; */
+}
+
+#base {
+	/* need to set to 0 for animation */
+	opacity: 0;
+}
+
+#nameplate {
+	margin-top: 0.8%;
+	margin-right: 60%;
+
+	display: flex;
+	flex-direction: row;
+}
+
+.col {
+	flex: 1;
+}
+
+.text {
+	background: white;
+	padding: 0 8px 0 15px;
+	margin: 0;
+
+	overflow: hidden;
+	white-space: nowrap;
+
+	font-size: 3vh;
+	letter-spacing: 4px;
+}
+
+#leftteam,
+#rightteam {
+	font-size: 2.5vh;
+}
+
+#left {
+	text-align: end;
+	margin-right: 1.1vw;
+}
+
+#right {
+	margin-left: 1.1vw;
+}
+
+#versus {
+	z-index: 4;
+	position: absolute;
+
+	top: 1%;
+	left: 20%;
+	transform: translate(-50%, 0%);
+
+	align-items: center;
+}
+
+#middle {
+	background-color: #ffba00;
+	font-size: 2.6vh;
+	opacity: 1;
+}
+
+#vs {
+	z-index: 2;
+	position: absolute;
+	left: 29%;
+	top: 5%;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	opacity: 1;
+}
+
+#series {
+	font-size: 2vh;
+	padding-top: 0.1rem;
+	padding-bottom: 0.1rem;
+}
+
+#game {
+	font-size: 2vh;
+	background-color: #ffba00;
+	padding-top: 0.1rem;
+	padding-bottom: 0.1rem;
+}
+
+#round {
+	flex-wrap: wrap;
+	font-size: 2vh;
+
+	padding-top: 0.1rem;
+	padding-bottom: 0.1rem;
+	padding-right: 1rem;
+}
+
+#logo {
+	position: absolute;
+	z-index: 6;
+	width: 6vw;
+
+	/* need to set to 0 for animation  */
+	opacity: 0;
+
+	overflow: hidden;
+
+	top: 1%;
+	right: 8%;
+
+	border-right: 1px solid #ffba00;
+}
+
+#sponsor {
+	position: absolute;
+	z-index: 4;
+	margin: 0;
+
+	top: 0%;
+	right: 2.5%;
+
+	height: 10vh;
+	max-height: 10vh;
+
+	/* need to set to 0 for animation */
+	opacity: 0;
+}
+
+#loop {
+	/* background-color: rgba(255, 255, 255, 0.34);
+	background-size: contain; */
+}
+
+#bg {
+	position: absolute;
+	z-index: 3;
+	width: 15vw;
+	height: 11vh;
+	right: 0%;
+	top: 0%;
+	background: rgb(255, 255, 255, 1);
+	opacity: 1;
+}
