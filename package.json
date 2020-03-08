@@ -40,6 +40,13 @@
 				"width": 2,
 				"file": "dota2ingame.html",
 				"headerColor": "#525F78"
+			},
+			{
+				"name": "FIFA20InGame",
+				"title": "FIFA20IG",
+				"width": 2,
+				"file": "fifaoverlays.html",
+				"headerColor": "#525F78"
 			}
 		],
 		"graphics": [
@@ -60,6 +67,11 @@
 			},
 			{
 				"file": "dota2ingaming.html",
+				"width": 1920,
+				"height": 1080
+			},
+			{
+				"file": "fifaoverlayin.html",
 				"width": 1920,
 				"height": 1080
 			}
