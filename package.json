@@ -47,6 +47,13 @@
 				"width": 2,
 				"file": "fifaoverlays.html",
 				"headerColor": "#525F78"
+			},
+			{
+				"name": "PUBGMingame",
+				"title": "PUBGMInGame",
+				"width": 2,
+				"file": "pugbmingame.html",
+				"headerColor": "#525F78"
 			}
 		],
 		"graphics": [
@@ -72,6 +79,11 @@
 			},
 			{
 				"file": "fifaoverlayin.html",
+				"width": 1920,
+				"height": 1080
+			},
+			{
+				"file": "pubgmingaming.html",
 				"width": 1920,
 				"height": 1080
 			}
