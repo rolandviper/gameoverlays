@@ -3,7 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Dota2Draft</title>
+	<title>Dota2</title>
+	<style>
+		body {
+			background-color: #3d0606;
+		}
+	</style>
 </head>
 <body>
 
@@ -11,8 +16,9 @@
 		<input type="text" id="leftteam">
 		<br>
 		<span>Right Team</span>
-		<input type="text" id="rightteam">
 		<br>
+		<input type="text" id="rightteam">
+		<hr>
 		<span>Type</span>
 		<input type="text" id="series">
 		<br>
@@ -22,8 +28,17 @@
 		<span>Round</span>
 		<input type="text" id="round">
 		<br>
-		<button onclick="play()">Play</button>
-		<button onclick="stop()">Stop</button>
+		<hr>
+		<span>Drafting Stage</span>
+		<br>
+		<button onclick="playA()">Play Draft</button>
+		<button onclick="stopA()">Stop Draft</button>
+		<br>
+		<hr>
+		<span>In Game</span>
+		<br>
+		<button onclick="playB()">Play InGame</button>
+		<button onclick="stopB()">Stop InGame</button>
 		
 
 

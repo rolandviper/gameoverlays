@@ -1,8 +1,8 @@
 body {
 	font-family: Staatliches, sans-serif !important;
 	background: transparent;
-	/* background-image: url('./img/basegameref/dota2ingame.png'); */
-	/* background-size: cover; */
+	/* background-image: url('./img/basegameref/dota2ingame.png');
+	background-size: cover; */
 }
 
 #base {
@@ -137,6 +137,6 @@ body {
 	height: 10vh;
 	right: 13.7%;
 	bottom: 0%;
-	background: rgb(255, 255, 255, 0.9);
+	background: #fff;
 	opacity: 1;
 }

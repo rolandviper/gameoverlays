@@ -3,7 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>MLBBDRAFT</title>
+	<title>MLBB</title>
+	<style>
+		body {
+			background-color:#112752 ;
+		}
+	</style>
 </head>
 <body>
 
@@ -12,7 +17,7 @@
 		<br>
 		<span>Right Team</span>
 		<input type="text" id="rightteam">
-		<br>
+		<hr>
 		<span>Type</span>
 		<input type="text" id="series">
 		<br>
@@ -22,8 +27,17 @@
 		<span>Round</span>
 		<input type="text" id="round">
 		<br>
-		<button onclick="play()">Play</button>
-		<button onclick="stop()">Stop</button>
+		<hr>
+		<span>MLBB Drafting Stage</span>
+		<br>
+		<button onclick="playA()">Play Draft</button>
+		<button onclick="stopA()">Stop Draft</button>
+		<br>
+		<hr>
+		<span>MLBB InGame</span>
+		<br>
+		<button onclick="playB()">Play InGame</button>
+		<button onclick="stopB()">Stop InGame</button>
 		
 
 

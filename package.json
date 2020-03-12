@@ -14,46 +14,32 @@
 		"compatibleRange": "^1.1.1",
 		"dashboardPanels": [
 			{
-				"name": "mlbbdraft",
-				"title": "mlbbdraft",
+				"name": "MLBB",
+				"title": "MLBB",
 				"width": 2,
 				"file": "mlbbdraft.html",
-				"headerColor": "#525F78"
+				"headerColor": "#2e76ff"
 			},
 			{
-				"name": "mlbbInGame",
-				"title": "mlbbInGame",
-				"width": 2,
-				"file": "mlbbingame.html",
-				"headerColor": "#525F78"
-			},
-			{
-				"name": "Dota2Draft",
-				"title": "D2Draft",
+				"name": "Dota2",
+				"title": "DOTA2",
 				"width": 2,
 				"file": "dota2draft.html",
-				"headerColor": "#525F78"
-			},
-			{
-				"name": "Dota2InGame",
-				"title": "D2InGame",
-				"width": 2,
-				"file": "dota2ingame.html",
-				"headerColor": "#525F78"
+				"headerColor": "#a61d1d"
 			},
 			{
 				"name": "FIFA20InGame",
 				"title": "FIFA20IG",
 				"width": 2,
 				"file": "fifaoverlays.html",
-				"headerColor": "#525F78"
+				"headerColor": "#858585"
 			},
 			{
-				"name": "PUBGMingame",
-				"title": "PUBGMInGame",
+				"name": "PUBGM",
+				"title": "PUBGM",
 				"width": 2,
 				"file": "pubgmingame.html",
-				"headerColor": "#525F78"
+				"headerColor": "#ff9e00"
 			}
 		],
 		"graphics": [

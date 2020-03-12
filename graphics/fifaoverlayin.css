@@ -1,8 +1,8 @@
 body {
 	font-family: Staatliches, sans-serif !important;
 	background: transparent;
-	/* background-image: url('./img/basegameref/fifa20ingame.png'); */
-	/* background-size: cover; */
+	/* background-image: url('./img/basegameref/fifa20ingame.png');
+	background-size: cover; */
 }
 
 #base {
@@ -141,6 +141,6 @@ body {
 	height: 11vh;
 	right: 0%;
 	top: 0%;
-	background: rgb(255, 255, 255, 1);
+	background: #fff;
 	opacity: 1;
 }
